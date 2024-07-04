@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="text-center p-3">
+    <div class="text-center p-3 myFooterBottom">
         © 2024 Copyright:
         <a class="text-body" href="{{route('homepage')}}">E-commerce.com</a>
     </div>

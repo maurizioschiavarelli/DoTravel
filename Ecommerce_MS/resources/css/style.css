@@ -1,7 +1,7 @@
 :root {
     --colore-primario:  #FF773D;
-    --colore-secondario: rgb(241, 117, 34);
-    --colore-terziario: #800080;
+    --colore-secondario: rgb(247, 108, 16);
+    --colore-terziario: rgb(245, 103, 8);
     --colore-testoNero: black;
 }
 
@@ -11,6 +11,10 @@ body{
 }
 
 .myFooter{
-    background-color: var(--colore-secondario)
+    background-color: var(--colore-secondario);
+}
+
+.myFooterBottom{
+    background-color: var(--colore-terziario);
 }
 
