@@ -1,4 +1,4 @@
-<footer class="bg-body-tertiary text-center text-lg-start">
+<footer class="text-center text-lg-start myFooter">
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -19,8 +19,8 @@
             </div>
         </div>
     </div>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2020 Copyright:
-        <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center p-3">
+        © 2024 Copyright:
+        <a class="text-body" href="{{route('homepage')}}">E-commerce.com</a>
     </div>
 </footer>
