@@ -6,15 +6,9 @@
 }
 
 body{
-    background-color: var(--colore-primario);
+
     color: var(--colore-testoNero);
 }
 
-.myFooter{
-    background-color: var(--colore-secondario);
-}
 
-.myFooterBottom{
-    background-color: var(--colore-terziario);
-}
 
