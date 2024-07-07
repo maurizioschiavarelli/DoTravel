@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fs-5">
+{{-- <nav class="navbar navbar-expand-lg fs-5">
 
     <div class="container-fluid">
 
@@ -51,4 +51,15 @@
 
     </div>
 
+</nav> --}}
+
+
+<nav>
+    <a href="" class="logo">DoTravel</a>
+    <ul>
+        <li><a href="">LOGIN</a></li>
+        <li><a href="">REGISTER</a></li>
+        <li class="search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li class="dropdown"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+    </ul>
 </nav>
