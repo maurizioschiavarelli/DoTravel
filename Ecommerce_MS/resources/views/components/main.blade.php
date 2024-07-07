@@ -23,4 +23,5 @@
     <img src="{{ asset('img/sun_rays.png') }}" alt="" class="sun_rays">
     <img src="{{ asset('img/black_shadow.png') }}" alt="" class="black_shadow">
     <img src="{{ asset('img/fog_1.png') }}" alt="" class="parallax fog_1">
+    
 </main>
