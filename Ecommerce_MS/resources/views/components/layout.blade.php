@@ -12,14 +12,14 @@
 
 <body>
     <header>
-        <x-navbar></x-navbar>
+        <x-navbar/>
     </header>
 
-    <x-main></x-main>
+    <x-main/>
 
         {{ $slot }}
 
-    <x-footer></x-footer>
+    <x-footer/>
 </body>
 
 </html>
