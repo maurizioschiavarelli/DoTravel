@@ -4,8 +4,8 @@
     <img src="{{ asset('img/fog_7.png') }}" alt=""        class="parallax fog_7">
     <img src="{{ asset('img/mountain_10.png') }}" alt=""  class="parallax mountain_10">
     <img src="{{ asset('img/fog_6.png') }}" alt=""        class="parallax fog_6">
-    <img src="{{ asset('img/mountain_9,png') }}" alt=""   class="parallax mountain_9">
-    <img src="{{ asset('img/mountain_8,png') }}" alt=""   class="parallax mountain_8">
+    <img src="{{ asset('img/mountain_9.png') }}" alt=""   class="parallax mountain_9">
+    <img src="{{ asset('img/mountain_8.png') }}" alt=""   class="parallax mountain_8">
     <img src="{{ asset('img/fog_5.png') }}" alt=""        class="parallax fog_5">
     <img src="{{ asset('img/mountain_7.png') }}" alt=""   class="parallax mountain_7">
     <div class="text parallax">
