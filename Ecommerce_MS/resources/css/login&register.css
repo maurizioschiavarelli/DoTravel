@@ -1,0 +1,10 @@
+.FormLoginRegister {
+    position: absolute;
+    z-index: 30;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -60%);
+    pointer-events: auto;
+}
+

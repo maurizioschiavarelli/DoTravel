@@ -99,7 +99,7 @@
     }
 
     .text h1{
-        font-weight: 800;
+        font-weight: 400;
         font-size: calc(2rem + 6vw);
         line-height: 0.88;
     }
@@ -297,7 +297,7 @@
     }
 
     .text h1{
-        font-weight: 800;
+        font-weight: 400;
         font-size: calc(2rem + 6vw);
         line-height: 0.88;
     }
@@ -496,7 +496,7 @@
     }
 
     .text h1{
-        font-weight: 800;
+        font-weight: 400;
         font-size: 8rem;
         line-height: 0.88;
     }
@@ -695,7 +695,7 @@
     }
 
     .text h1{
-        font-weight: 800;
+        font-weight: 400;
         font-size: 8rem;
         line-height: 0.88;
     }
@@ -799,8 +799,8 @@
         background-color: #353 ;
         height: 100vh;
         width: 100vw;
-        overflow: hidden;
         pointer-events: none;
+        overflow: hidden;
     }
 
     .parallax{
@@ -893,7 +893,7 @@
     }
 
     .text h1{
-        font-weight: 800;
+        font-weight: 400;
         font-size: 8rem;
         line-height: 0.88;
     }

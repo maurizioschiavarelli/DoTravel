@@ -9,10 +9,7 @@
     <img src="{{ asset('img/China_img/fog_5.png') }}"       data-speedx="0.029" data-speedy="0.029"    class="parallax fog_5">
     <img src="{{ asset('img/China_img/mountain_7.png') }}"  data-speedx="0.039" data-speedy="0.039"    class="parallax mountain_7">
 
-     <div class="text parallax">
-        <h2>China month</h2>
-        <h1>{{env('APP_NAME')}}</h1>
-    </div>
+        {{$slot}}
 
     <img src="{{ asset('img/China_img/mountain_6.png') }}" data-speedx="0.039"  data-speedy="0.039"     class="parallax mountain_6">
     <img src="{{ asset('img/China_img/fog_4.png') }}"      data-speedx="0.045"  data-speedy="0.045"     class="parallax fog_4">

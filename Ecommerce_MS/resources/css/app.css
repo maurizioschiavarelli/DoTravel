@@ -1,7 +1,9 @@
-/* @import 'bootstrap'; */
+@import 'bootstrap';
 
 @import './style.css';
 
 @import './styleChinaSection.css';
 
 @import './navbar.css';
+
+@import './login&register';
