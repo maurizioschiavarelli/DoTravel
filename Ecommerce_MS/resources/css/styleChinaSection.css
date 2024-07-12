@@ -1,40 +1,5 @@
 @media screen and (min-width: 0px) and (max-width: 900px) {
 
-    .logo{
-        font-size: 1.5rem;
-        color: white;
-        font-weight: 400;
-    }
-
-    header ul a{
-        text-decoration: none;
-        color: rgb(12, 155, 107);
-        padding: 0 8px;
-        font-weight: 400;
-        font-size: 0.9rem;
-    }
-
-    .dropdown{
-        background-color: #222;
-        width: 32px;
-        height: 32px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-
-    .search{
-        background-color: #222;
-        width: 32px;
-        height: 32px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        margin-right: calc(0.1rem + 0.1vw);
-    }
-
     main{
         position: relative;
         background-color: #353 ;
@@ -850,7 +815,7 @@
         z-index: 1;
         width: 2800px;
         top: calc(50% - 200px);
-        left: calc(50% + 10px);
+        left: 50%;
         user-select: none;
 
     }
@@ -978,7 +943,7 @@
         z-index: 22;
         width: 900px;
         top: calc(50% - 40px);
-        left: calc(50% + 890px);
+        left: calc(50% + 990px);
     }
 
     .mountain_2{
@@ -994,7 +959,7 @@
         z-index: 18;
         width: 990px;
         top: calc(50% + 40.5px);
-        left: calc(50% - 990px);
+        left: calc(50% - 1090px);
     }
 
     .sun_rays{
@@ -1025,4 +990,8 @@
 
 }
 
+.Main_China{
+    border-bottom-left-radius: 80% 20%;
+    border-bottom-right-radius: 80% 20%;
+}
 

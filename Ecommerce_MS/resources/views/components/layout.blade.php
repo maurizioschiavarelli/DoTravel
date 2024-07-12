@@ -15,8 +15,6 @@
         <x-navbar/>
     </header>
 
-    <x-Main_China/>
-
         {{ $slot }}
 
     <x-footer/>

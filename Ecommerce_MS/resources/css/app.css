@@ -2,4 +2,6 @@
 
 @import './style.css';
 
-@import './styleChinaSection.css'
+@import './styleChinaSection.css';
+
+@import './navbar.css';

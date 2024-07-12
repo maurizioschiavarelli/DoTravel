@@ -1,4 +1,4 @@
-<main>
+<main class="Main_China">
 
     <img src="{{ asset('img/China_img/background.png') }}"  data-speedx="0.001" data-speedy="0.001"    class="parallax bg_img">
     <img src="{{ asset('img/China_img/fog_7.png') }}"       data-speedx="0.004" data-speedy="0.004"    class="parallax fog_7">
