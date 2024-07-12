@@ -10,15 +10,15 @@ use Illuminate\Database\Seeder;
 class DatabaseSeeder extends Seeder
 {
     public $categories = [
-        'Elettronica',
-        'Musica',
-        'Abbigliamento',
-        'Libri',
-        'Giardino',
-        'Casa',
-        'Animali domestici',
-        'Automobili',
-        'Accessori'
+        'Citta metropolitane',
+        'Destinazioni storiche',
+        'Destinazioni gastronomiche',
+        'Destinazioni a Budget',
+        'Destinazioni di Lusso',
+        'Destinazioni Avventura',
+        'Spiagge e Isole',
+        'Montagna',
+        'Destinazioni Ecoturistiche'
     ];
 
     public function run(): void
