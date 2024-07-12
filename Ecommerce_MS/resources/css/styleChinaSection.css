@@ -13,7 +13,6 @@
         pointer-events: none;
         transform: translate(-50%, -50%);
         transition: 0.45s cubic-bezier(.2,.49,.32,.99);
-
     }
 
     .bg_img{
@@ -23,7 +22,6 @@
         top: calc(50% - 390px);
         left: calc(50% + 10px);
         user-select: none;
-
     }
 
     .fog_1{
@@ -211,7 +209,6 @@
         pointer-events: none;
         transform: translate(-50%, -50%);
         transition: 0.45s cubic-bezier(.2,.49,.32,.99);
-
     }
 
     .bg_img{
@@ -221,7 +218,6 @@
         top: calc(50% - 390px);
         left: calc(50% + 10px);
         user-select: none;
-
     }
 
     .fog_1{
@@ -410,7 +406,6 @@
         pointer-events: none;
         transform: translate(-50%, -50%);
         transition: 0.45s cubic-bezier(.2,.49,.32,.99);
-
     }
 
     .bg_img{
@@ -420,7 +415,6 @@
         top: calc(50% - 390px);
         left: calc(50% + 10px);
         user-select: none;
-
     }
 
     .fog_1{
@@ -609,7 +603,6 @@
         pointer-events: none;
         transform: translate(-50%, -50%);
         transition: 0.45s cubic-bezier(.2,.49,.32,.99);
-
     }
 
     .bg_img{
@@ -807,7 +800,6 @@
         pointer-events: none;
         transform: translate(-50%, -50%);
         transition: 0.45s cubic-bezier(.2,.49,.32,.99);
-
     }
 
     .bg_img{
@@ -817,7 +809,6 @@
         top: calc(50% - 200px);
         left: 50%;
         user-select: none;
-
     }
 
     .fog_1{

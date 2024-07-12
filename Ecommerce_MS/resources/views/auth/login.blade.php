@@ -2,27 +2,31 @@
 
     <x-Main_China>
 
-        <div class="row FormLoginRegister">
-            <div class="col-12">
+        <h2 class="FormLoginH2">Login</h2>
 
-                <form method="POST" action="{{ route('login') }}">
-                    @csrf
+        <div class="container">
+            <div class="row FormLoginRegister">
+                <div class="col-12">
 
-                    <div class="mb-3">
-                        <label for="loginEmail" class="form-label">Indirizzo email</label>
-                        <input type="email" class="form-control login_input" id="loginEmail" aria-describedby="emailHelp" name="email">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
+                    <form method="POST" action="{{ route('login') }}">
+                        @csrf
 
-                    <div class="mb-3">
-                        <label for="Password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="Password" name="password">
-                    </div>
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Indirizzo email</label>
+                            <input type="email" class="form-control login_input" id="loginEmail" aria-describedby="emailHelp" name="email">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
 
-                    <button type="submit" class="btn btn-primary">Login</button>
+                        <div class="mb-3">
+                            <label for="Password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="Password" name="password">
+                        </div>
 
-                </form>
+                        <button type="submit" class="btn btn-primary">Login</button>
 
+                    </form>
+
+                </div>
             </div>
         </div>
 

@@ -8,3 +8,25 @@
     pointer-events: auto;
 }
 
+.FormLoginH2{
+    position: absolute;
+    z-index: 7;
+    top: 45%;
+    left: 49.5%;
+    color: white;
+    transform: translate(-50%, -60%);
+    pointer-events: auto;
+    font-size: calc(6rem + 5vw);
+}
+
+.FormRegisterH2{
+    position: absolute;
+    z-index: 7;
+    top: 45%;
+    left: 49.5%;
+    color: white;
+    transform: translate(-50%, -60%);
+    pointer-events: auto;
+    font-size: calc(6rem + 5vw);
+}
+
