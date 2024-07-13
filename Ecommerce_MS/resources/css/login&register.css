@@ -13,7 +13,7 @@
     z-index: 7;
     top: 45%;
     left: 49.5%;
-    color: white;
+    color: rgba(252, 252, 253, 0.58);
     transform: translate(-50%, -60%);
     pointer-events: auto;
     font-size: calc(6rem + 5vw);
@@ -24,9 +24,40 @@
     z-index: 7;
     top: 45%;
     left: 49.5%;
-    color: white;
+    color: rgba(252, 252, 253, 0.58);
     transform: translate(-50%, -60%);
     pointer-events: auto;
     font-size: calc(6rem + 5vw);
 }
 
+.register_input{
+    background-color: rgba(17, 25, 40, 0.57);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+}
+
+.register_input:focus{
+    background-color: rgba(17, 25, 40, 0.57);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+}
+
+.login_input{
+    background-color: rgba(17, 25, 40, 0.57);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+}
+
+.login_input:focus{
+    background-color: rgba(17, 25, 40, 0.57);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+}
+
+.register_label{
+    color: white;
+}
+
+.login_label{
+    color: white;
+}

@@ -12,14 +12,14 @@
                         @csrf
 
                         <div class="mb-3">
-                            <label for="loginEmail" class="form-label">Indirizzo email</label>
+                            <label for="loginEmail" class="form-label login_label">Indirizzo email</label>
                             <input type="email" class="form-control login_input" id="loginEmail" aria-describedby="emailHelp" name="email">
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
 
                         <div class="mb-3">
-                            <label for="Password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="Password" name="password">
+                            <label for="Password" class="form-label login_label">Password</label>
+                            <input type="password" class="form-control login_input" id="Password" name="password">
                         </div>
 
                         <button type="submit" class="btn btn-primary">Login</button>
