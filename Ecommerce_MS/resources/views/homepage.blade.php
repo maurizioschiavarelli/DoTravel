@@ -24,7 +24,7 @@
                         <p class="card-title">{{ $article->title }}</p>
                         <p class="card-subtitle">{{ $article->price }}</p>
                         <div class="d-flex justify-content-evenly align-items-center mt-5">
-                            <a href="">Mostra</a>
+                            <a href="{{ route('article.show', compact('article')) }}">Mostra</a>
                             <a href="">{{ $article->category->name }}</a>
                         </div>
                     </div>
