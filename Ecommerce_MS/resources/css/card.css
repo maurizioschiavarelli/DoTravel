@@ -6,8 +6,9 @@
 .cardCustom:hover{
     background-color: rgba(13, 18, 27, 0.57);
     color: var(--text-color);
+    transform: scale(1.05);
+    transition: transform s;
 }
-
 
 .cardCustom div a{
     color: var(--text-color);
@@ -25,3 +26,7 @@
 
 /* carousel */
 
+.imgCustom{
+    height: 700px;
+    object-fit: cover;
+}
