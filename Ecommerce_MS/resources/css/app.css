@@ -6,4 +6,8 @@
 
 @import './navbar.css';
 
-@import './login&register';
+@import './login&register.css';
+
+@import './createArticlesForm.css';
+
+@import './card.css';

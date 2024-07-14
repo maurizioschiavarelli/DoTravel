@@ -1,15 +1,15 @@
 <x-layout>
 
-    <div class="row">
-        <div class="col-12">
-            <h1>Pubblica un articolo</h1>
-        </div>
-    </div>
+    <x-Main_China>
 
-    <div class="row">
-        <div class="col-12">
-            <livewire:create-article-form />
+        <h2 class="createArticleh2">Inserisci un annuncio</h2>
+
+        <div class="row createArticle">
+            <div class="col-12">
+                <livewire:create-article-form />
+            </div>
         </div>
-    </div>
+
+    </x-Main_China>
 
 </x-layout>
