@@ -32,7 +32,7 @@
                             <input type="password" class="form-control register_input" id="Password_confirmation" name="password_confirmation">
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Registrati</button>
+                        <button type="submit" class="btn register_button">Registrati</button>
 
                     </form>
 

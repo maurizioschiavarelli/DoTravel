@@ -22,7 +22,7 @@
                             <input type="password" class="form-control login_input" id="Password" name="password">
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="submit" class="btn login_button">Login</button>
 
                     </form>
 

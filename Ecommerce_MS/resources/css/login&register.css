@@ -3,7 +3,7 @@
     z-index: 30;
     top: 50%;
     left: 50%;
-    color: white;
+    color: var(--text-color);
     transform: translate(-50%, -60%);
     pointer-events: auto;
 }
@@ -33,31 +33,51 @@
 .register_input{
     background-color: rgba(17, 25, 40, 0.57);
     border: 1px solid rgba(255, 255, 255, 0.125);
-    color: white;
+    color: var(--text-color);
 }
 
 .register_input:focus{
     background-color: rgba(17, 25, 40, 0.57);
     border: 1px solid rgba(255, 255, 255, 0.125);
-    color: white;
+    color: var(--text-color);
 }
 
 .login_input{
     background-color: rgba(17, 25, 40, 0.57);
     border: 1px solid rgba(255, 255, 255, 0.125);
-    color: white;
+    color: var(--text-color);
 }
 
 .login_input:focus{
     background-color: rgba(17, 25, 40, 0.57);
     border: 1px solid rgba(255, 255, 255, 0.125);
-    color: white;
+    color: var(--text-color);
 }
 
 .register_label{
-    color: white;
+    color: var(--text-color);
 }
 
 .login_label{
-    color: white;
+    color: var(--text-color);
+}
+
+.login_button{
+    background-color: rgba(17, 25, 40, 0.57);
+    color: var(--text-color);
+}
+
+.login_button:hover{
+    background-color: rgba(8, 9, 12, 0.57);
+    color: var(--text-color);
+}
+
+.register_button{
+    background-color: rgba(17, 25, 40, 0.57);
+    color: var(--text-color);
+}
+
+.register_button:hover{
+    background-color: rgba(8, 9, 12, 0.57);
+    color: var(--text-color);
 }
