@@ -1,6 +1,6 @@
 <x-layout>
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide carouselCustom">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -11,25 +11,27 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="https://picsum.photos/2000" class="d-block w-100 imgCustom" alt="...">
+                <div class="carousel-caption d-flex flex-column align-items-center">
                     <h5>{{$article->title}}</h5>
                     <h5>{{$article->price}}</h5>
                     <p>{{$article->description}}</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                <img src="https://picsum.photos/2000" class="d-block w-100 imgCustom" alt="...">
+                <div class="carousel-caption d-flex flex-column align-items-center">
+                    <h5>{{$article->title}}</h5>
+                    <h5>{{$article->price}}</h5>
+                    <p>{{$article->description}}</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://picsum.photos/200" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                <img src="https://picsum.photos/2000" class="d-block w-100 imgCustom" alt="...">
+                <div class="carousel-caption d-flex flex-column align-items-center">
+                    <h5>{{$article->title}}</h5>
+                    <h5>{{$article->price}}</h5>
+                    <p>{{$article->description}}</p>
                 </div>
             </div>
         </div>

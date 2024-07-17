@@ -1,5 +1,5 @@
 .cardCustom{
-    background-color: rgba(17, 25, 40, 0.57);
+    background-color: rgba(17, 25, 40, 0.37);
     color: var(--text-color);
     font-size: 1.2rem;
 }
@@ -29,4 +29,40 @@
 .imgCustom{
     height: 700px;
     object-fit: cover;
+}
+
+.carouselCustom{
+    margin-top: 110px;
+}
+
+.carousel-item div p, h5 {
+    background-color: rgba(7, 9, 14, 0.57);
+    color: var(--text-color);
+    border-radius: 20px;
+    width: 40%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+    .carousel-item div p, h5 {
+        background-color: rgba(7, 9, 14, 0.57);
+        color: var(--text-color);
+        border-radius: 20px;
+        width: 100%;
+    }
+}
+
+.categorySelect{
+    text-align: center;
+    background-color: rgba(17, 25, 40, 0.57);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: var(--text-color);
+    padding: 2px;
+    border-radius: 8px;
+}
+
+
+.categorySelect:hover{
+    background-color: rgba(8, 9, 12, 0.57);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: var(--text-color);
 }
