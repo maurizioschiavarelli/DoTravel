@@ -4,7 +4,7 @@ a {
 
 .logo {
     font-size: 1.7rem;
-    color: black;
+    color: white;
     font-weight: 400;
 }
 
@@ -26,6 +26,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 6vh;
+    background-color: rgba(37, 37, 41, 0.6);
+    border-radius: 20px;
 
 }
 
@@ -38,7 +40,7 @@ header ul {
 
 header ul a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 0 1.5rem;
     font-weight: 400;
 }

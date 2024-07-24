@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row d-flex justify-content-center">
             @foreach ($categories as $category)
-                <div class="col-2 mt-3">
+                <div class="col-4 col-lg-3 col-sm-3 mt-3">
                     <a href="{{ route('byCategory', ['category' => $category]) }}">
                         <p class="categorySelect">{{ $category->name }}</p>
                     </a>
@@ -41,7 +41,7 @@
             @empty
                 <div class="col-12 text-center">
                     <h3>
-                        Non sono stati creati ancora annunci
+                        Non sono stati creati ancora annunci per questa categoria
                     </h3>
                 </div>
             @endforelse

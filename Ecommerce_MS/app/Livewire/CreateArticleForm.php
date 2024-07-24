@@ -6,9 +6,17 @@ use App\Models\Article;
 use Livewire\Component;
 use Livewire\Attributes\Validate;
 use Illuminate\Support\Facades\Auth;
+use Livewire\WithFileUploads;
 
 class CreateArticleForm extends Component
 {
+
+    use WithFileUploads;
+
+    public $image = [];
+
+    public $temporary_images;
+
     #[Validate('required|min:5')]
     public $title;
     #[Validate('required|min:10')]
