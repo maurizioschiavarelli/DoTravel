@@ -2,7 +2,7 @@
 
     <x-Main_China>
 
-        <h2 class="FormRegisterH2">Register</h2>
+        <h2 class="FormRegisterH2">Registrati</h2>
 
         <div class="container">
             <div class="row FormLoginRegister">

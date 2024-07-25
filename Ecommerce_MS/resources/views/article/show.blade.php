@@ -17,7 +17,7 @@
                     <img src="{{ $image->getUrl(2000, 2000)}}" class="d-block w-100 imgCustom" alt="Immagine {{$key + 1}} dell'articolo {{ $article->title }}">
                     <div class="carousel-caption d-flex flex-column align-items-center">
                         <h5>{{$article->title}}</h5>
-                        <h5>{{$article->price}}</h5>
+                        <h5>{{$article->price}} €</h5>
                         <p>{{$article->description}}</p>
                     </div>
                 </div>

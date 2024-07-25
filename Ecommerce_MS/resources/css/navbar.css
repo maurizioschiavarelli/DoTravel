@@ -102,3 +102,20 @@ header ul a {
         margin-right: calc(0.1rem + 0.1vw);
     }
 }
+
+
+    .pagination li span{
+        color: black;
+        background-color: #0cbe39; /* Colore di sfondo generale */
+    }
+
+    .pagination li.disabled {
+        color: black;
+        background-color: #1064b8; /* Colore di sfondo per gli elementi disabilitati */
+    }
+
+    .pagination li.active {
+        color: black;
+        background-color: #09da1b; /* Colore di sfondo per l'elemento attivo */
+    }
+

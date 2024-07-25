@@ -36,16 +36,15 @@
                             <p class="card-subtitle">{{ $article->price }}</p>
                             <div class="d-flex justify-content-evenly align-items-center mt-5">
                                 <a href="{{ route('article.show', compact('article')) }}">Mostra</a>
-                                <a
-                                    href="{{ route('byCategory', ['category' => $category]) }}">{{ $article->category->name }}</a>
+                                <a href="{{ route('byCategory', ['category' => $article->category]) }}">{{ $article->category->name }}</a>
                             </div>
                         </div>
                     </div>
                 </div>
             @empty
                 <div class="col-12">
-                    <h3>
-                        Non sono stati creati ancora annunci per questa categoria
+                    <h3 class="text-center">
+                        Non sono stati creati ancora annunci
                     </h3>
                 </div>
             @endforelse

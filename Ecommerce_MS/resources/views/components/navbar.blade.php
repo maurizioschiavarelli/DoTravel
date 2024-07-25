@@ -8,7 +8,7 @@
             <form action="{{route('logout')}}" method="post" class="d-none" id="form-logout">@csrf</form>
         @else
             <li><a href="{{route('login')}}">LOGIN</a></li>
-            <li><a href="{{route('register')}}">REGISTER</a></li>
+            <li><a href="{{route('register')}}">REGISTRATI</a></li>
         @endauth
             {{-- <li class="search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
             <li class="dropdown"><a href=""><i class="fa-solid fa-bars"></i></a></li> --}}

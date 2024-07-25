@@ -60,13 +60,12 @@
     @if (!empty($images))
         <div class="row">
             <div class="col-12">
-                <p>Photo preview:</p>
-                <div class="row border border-4 border-success rounded shadow py-4">
+                <div class="row border border-4 border-success rounded shadow">
                     @foreach ($images as $key => $image)
-                        <div class="col d-flex flex-column align-items-center my-3">
+                        <div class="col d-flex flex-column align-items-center">
                             <div class="img-preview mx-auto shadow rounded"
                                 style="background-image: url({{ $image->temporaryUrl() }})"></div>
-                            <button type="button" class="btn mt-1 btn-danger"
+                            <button type="button" class="btn btn-danger"
                                 wire:click="removeImage({{ $key }})">X</button>
                         </div>
                     @endforeach
