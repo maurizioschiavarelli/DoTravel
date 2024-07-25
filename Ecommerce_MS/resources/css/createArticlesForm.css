@@ -80,3 +80,11 @@ form div .form-text{
     border: 1px solid rgba(255, 255, 255, 0.125);
     color: var(--text-color);
 }
+
+.img-preview{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}

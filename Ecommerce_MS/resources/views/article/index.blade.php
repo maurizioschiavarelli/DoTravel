@@ -13,7 +13,7 @@
             @forelse ($articles as $article)
                 <div class="col-lg-4 col-md-6">
                     <div class="card text-center mb-3 cardCustom">
-                        <img src="https://picsum.photos/200" class="card-img-top"
+                        <img src="{{$article->images->isNotEmpty() ? $article->images->first()->getUrl(2000, 2000) : 'https://picsum.photos/300'}}" class="card-img-top"
                             alt="Cover dell'articolo {{ $article->title }}">
                         <div class="card-body">
                             <p class="card-title">{{ $article->title }}</p>
@@ -27,7 +27,7 @@
                 </div>
             @empty
                 <div class="col-12">
-                    <h3>
+                    <h3 class="text-center">
                         Non sono stati creati ancora annunci
                     </h3>
                 </div>

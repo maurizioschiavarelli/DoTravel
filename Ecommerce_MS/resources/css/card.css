@@ -27,7 +27,7 @@
 /* carousel */
 
 .imgCustom{
-    height: 700px;
+    height: 800px;
     object-fit: cover;
 }
 
@@ -65,4 +65,9 @@
     background-color: rgba(8, 9, 12, 0.57);
     border: 1px solid rgba(255, 255, 255, 0.125);
     color: var(--text-color);
+}
+
+.imgCustomCard{
+    max-height: 400px;
+
 }
