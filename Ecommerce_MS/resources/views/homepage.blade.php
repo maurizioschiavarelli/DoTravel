@@ -27,9 +27,9 @@
         <div class="row">
 
             @forelse ($articles as $article)
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-12 col-xl-4">
                     <div class="card text-center mb-3 cardCustom">
-                        <img src="{{$article->images->isNotEmpty() ? $article->images->first()->getUrl(2000, 2000) : 'https://picsum.photos/2000'}}" class="card-img-top imgCustomCard"
+                        <img src="{{$article->images->isNotEmpty() ? $article->images->first()->getUrl(2000, 2000) : 'https://picsum.photos/2000'}}" class="img-custom-card"
                             alt="Cover dell'articolo {{ $article->title }}">
                         <div class="card-body">
                             <p class="card-title">{{ $article->title }}</p>
@@ -51,6 +51,8 @@
 
         </div>
     </div>
+
+    {{-- <h2 class="text-center m-5">Vedi tutti gli annunci <button><a href="{{route('article.index')}}">QUI</a></button></h2> --}}
 
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">

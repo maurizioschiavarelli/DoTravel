@@ -2,6 +2,8 @@
     background-color: rgba(17, 25, 40, 0.37);
     color: var(--text-color);
     font-size: 1.2rem;
+    max-height: 600px;
+    height: 600px;
 }
 .cardCustom:hover{
     background-color: rgba(13, 18, 27, 0.57);
@@ -22,6 +24,11 @@
     padding: 6px 10px;
     border-radius: 8px;
     background-color: rgba(7, 9, 14, 0.57);
+}
+
+.img-custom-card{
+    height: 400px;
+    object-fit:cover;
 }
 
 /* carousel */
@@ -67,8 +74,4 @@
     color: var(--text-color);
 }
 
-.imgCustomCard{
-    height: auto;
 
-
-}
